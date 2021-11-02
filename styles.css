@@ -1,0 +1,83 @@
+body {
+    background-color: red;
+    animation: changeColor 5s infinite;
+}
+
+@-webkit-keyframes changeColor {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: green;
+    }
+}
+
+.figma {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    position: relative;
+    width: 177.05px;
+    height: 328.68px;
+    transform: rotate(-0.03deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.celular {
+    position: absolute;
+    width: 177px;
+    height: 329px;
+    left: -0.08px;
+    top: -0.06px;
+    background: #000000;
+    border-radius: 25px;
+}
+
+.celular2 {
+    position: absolute;
+    width: 153px;
+    height: 308px;
+    left: 11.92px;
+    top: 9.94px;
+    background: #ffffff;
+    border-radius: 16px;
+}
+
+.not {
+    position: absolute;
+    width: 76px;
+    height: 20px;
+    left: 49.92px;
+    top: -0.06px;
+    background: #000000;
+    border-radius: 33px;
+}
+
+.camera {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 83.92px;
+    top: 8.94px;
+    background: #616161;
+    border-radius: 20px;
+}
+
+.ponto {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: 85.92px;
+    top: 10.94px;
+    background: #C4C4C4;
+    border: 30px;
+}
